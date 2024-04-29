@@ -28,5 +28,25 @@ const properties_access={
 
 console.log(properties_access.date.toUTCString());
 console.log(properties_access["subject"], properties_access["topic"])
-X= "topic";
+let X= "topic";
 console.log(properties_access[X])
+
+// ---------Nested Objects------------
+
+const nested_object={
+    subject: "javascript",
+    topics: {
+        first: "functions",
+        second:"class",
+        third:"object"
+    },
+    today_topic:"Today's topic is nested Object"
+}
+
+console.log(nested_object.today_topic,"from" + " "+nested_object.topics.third);
+
+const display_object= Object.values(nested_object);
+console.log(properties_access);
+const display_object2= JSON.stringify(nested_object);
+console.log(display_object2)
+
