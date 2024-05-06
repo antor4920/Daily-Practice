@@ -18,4 +18,12 @@ let helo=() => "hello, I\'m Jahidul hasan";
 
 console.log(helo());
 
+let myName= name => "Jahidul hasan" + " " + name;
+
+console.log(myName("antor Ali"));
+
+let Country= (countryName, location) => "I live in"+" "+countryName+" "+"at"+" "+ location;
+
+console.log(Country("Bangladesh","Dhaka"));
+
 
