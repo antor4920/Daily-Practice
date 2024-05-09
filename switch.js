@@ -26,3 +26,15 @@ switch(new Date().getDay()){
                         
 }
 console.log(day);
+
+
+// statement 
+
+let age=6;
+
+if (age=>18){
+    console.log("Adult");
+}
+else{
+    console.log((age<5)? "chiled":"Young");
+}
