@@ -40,3 +40,13 @@ const Human2={
 }
 
 console.log(Human2.FullName.call(Human));
+
+
+
+function myfunction(){
+    "use strict"
+    Y=10;
+    X=5;
+}
+
+myfunction();

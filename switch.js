@@ -36,5 +36,5 @@ if (age=>18){
     console.log("Adult");
 }
 else{
-    console.log((age<5)? "chiled":"Young");
+    console.log((age<5) ? "chiled":"Young");
 }
