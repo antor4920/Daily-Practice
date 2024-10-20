@@ -1,9 +1,12 @@
-const fetchData = new Promise((resolve, reject) => {
+function hello(name, callFun) {
   setTimeout(() => {
-    resolve("Data fetched"); // Task completed successfully
-  }, 2000);
-});
+    console.log("My name is " + name);
+    callFun && callFun();
+  }, 3000);
+}
 
-fetchData.then((data) => {
-  console.log(data); // Handle success
+hello("Antor", () => {
+  hello("Ashik", () => {
+    hello("Jihad");
+  });
 });
